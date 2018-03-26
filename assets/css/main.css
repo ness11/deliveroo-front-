@@ -1,0 +1,160 @@
+
+body{
+    font-family: 'Adelle Sans';
+    -webkit-font-smoothing: antialiased;
+   
+}
+
+.principal{
+    border-bottom: solid 1px #F3F5F5;
+    
+}
+button{
+    border-radius: 5px;
+    background-color:#00D1BE;
+    color: white;  
+    font-weight: bold; 
+    font-family: 'Adelle Sans';
+    height: 50px;
+    font-size: 16px;
+    
+}
+h2{
+    font-family: 'Stratos Deliveroo Web';
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.row p{
+    margin-top: 10px
+}
+.row a{
+    color: #00D1BE
+}
+.food img {
+    height: 150px;
+    width:100%;
+    object-fit: cover;
+    
+}
+h3{
+    position: absolute;
+    color: white;
+    font-family: 'Stratos Deliveroo Web';
+    font-size: 40px
+}
+.row{
+    margin-bottom: 20px;
+}
+.choose{
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+.restau{
+    background-color: #FFE9E4;
+    padding: 50px;
+}
+.restau img{
+    width:100%;
+    height: 180px;
+    object-fit: cover;
+}
+.restau h4 {
+    padding-top: 20px;
+}
+h4{
+    font-family: 'Stratos Deliveroo Web';
+    font-size: 22px;  
+}
+.options{
+    list-style: none;
+    padding: 0px;
+    font-family: 'Stratos Deliveroo Web';
+  
+
+}
+.options li {
+    /* background-color: #F3F5F5; */
+    padding-right: 40px;
+    font-size: 28px;
+    
+}
+.options li p{
+    background-color: #F3F5F5;
+    width: 110%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h5{
+   font-family: 'Stratos Deliveroo Web';
+   font-size: 28px;
+}
+.chaud{
+    padding: 40px;
+    background-color: white;
+    
+    
+}
+.biseau{
+    height: 120%;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    transform: rotate(6deg) translate(-50%, 0);
+    top: -10%;
+}  
+.biseau-reverse{
+    height: 120%;
+    width: 85px;
+    background-color: white;
+    position: absolute;
+    transform: rotate(6deg) translate(-50%, 0);
+    top: -10%;
+    right: -15%
+}  
+
+.img-wrapper{
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+
+}  
+.img-wrapper img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;    
+}
+.more{
+    padding-top: 40px;
+    background-color: #F3F5F5;
+}
+/* .more .row{
+    background-color: white
+} */
+.riders{
+    background-color: #FF0B29;
+    color: white
+}
+.restaurants{
+    background-color: #FF7A00;
+    color: white;
+}
+.team{
+    color: white;
+    background-color: #A29088;
+}
+footer{
+    background-color: #2D3333;
+    padding-top: 20px;
+}
+footer div{
+    background-color: #424848;
+    color: white
+}

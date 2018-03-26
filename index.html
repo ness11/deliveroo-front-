@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/fonts/deliveroo.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <!-- Fichiers JavaScript -->
+    <!-- jQuery en prermier, puis Popper.js, et enfin Bootstrap JS -->
+    <script src="assets/js/lib/jquery/jquery-3.3.1.min.js"></script>
+    <!-- <script src="assets/js/lib/Popper/popper.min.js"></script> -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="assets/js/lib/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/lib/jquery-template/jquery.loadTemplate.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <nav class="principal navbar navbar-light fixed-top navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/img/logo-green.svg" width="200" height="40" class="d-inline-block align-top" alt="">
+                </a>
+                <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active btn btn-primary text-white" href="#">
+                                    <i class="fas fa-heart"></i> Parrainez des amis</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user"></i> John Doe</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item">Historique des commandes</a>
+                                    <a class="dropdown-item">Votre compte</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Déconnexion</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Francais</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Français</a>
+                                    <a class="dropdown-item" href="#">English</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </div>
+    <div class="container choose">
+        <h2>À la carte</h2>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="food">
+                    <h3>Crème de la crème</h3>
+                    <img src="assets/img/menu-tag-image.jpg" class="img-fluid" alt="Crème de la crème">
+                </div>
+                <p>Pour impressionner votre rencard ou fêter un anniversaire, marquez le coup avec un repas spécial.</p>
+                <a href="">Voir Crème de la crème
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+            <div class="col-md-7">
+                <div class="food">
+                    <h3>Plaisirs Coupables</h3>
+                    <img src="assets/img/menu-tag-image-2.jpg" class="img-fluid food" alt="Plaisirs Coupables">
+                </div>
+                <p>Plaisirs Coupables Rendez l'ordinaire extraordinaire : la comfort food à son maximum. Allez, vous le méritez
+                    bien !</p>
+                <a href="">Voir Plaisirs Coupables
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="food">
+                    <h3>Equilibrés et Délicieux</h3>
+                    <img src="assets/img/menu-tag-image-3.jpg" class="img-fluid food" alt="Equilibrés et Délicieux">
+                </div>
+                <p> Pas besoin de rendre votre régime douloureux. Ces plats équilibrés et sains vont vous redonner le sourire
+                    !
+                </p>
+                <a href="">Voir Equilibrés et Délicieux
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+            <div class="col-md-5">
+                <div class="food">
+                    <h3>Grands plaisirs, petits prix</h3>
+                    <img src="assets/img/menu-tag-image-4.jpg" class="img-fluid food" alt="Grands plaisirs, petits prix">
+                </div>
+                <p>Se régaler est une affaire de tous les jours. Une sélection validée par votre porte-monnaie.</p>
+                <a href="">Voir Grands plaisirs, petits prixe
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="food">
+                    <h3>Desserts et Douceurs</h3>
+                    <img src="assets/img/menu-tag-image-5.jpg" class="img-fluid" alt="Desserts et Douceurs">
+                </div>
+                <p>Qui a dit que les desserts et le goûter étaient réservés aux enfants ? Certainement pas nous.</p>
+                <a href="">Voir Desserts et Douceurs
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+            <div class="col-md-7">
+                <div class="food">
+                    <h3>Pépites de Quartier</h3>
+                    <img src="assets/img/menu-tag-image-6.jpg" class="img-fluid" alt="Pépites de Quartier">
+                </div>
+                <p>Découvrez la sélection gourmande de notre équipe experte et passionnée.</p>
+                <a href="">Voir Pépites de Quartier
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="food">
+                    <h3>Exclusivement sur Deliveroo</h3>
+                    <img src="assets/img/menu-tag-image-7.jpg" class="img-fluid" alt="Exclusivement sur Deliveroo">
+                </div>
+                <p>Du plus pointu au repaire de quartier, vous ne les trouverez nulle part ailleurs.</p>
+                <a href="">Voir Exclusivement sur Deliveroo
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="restau">
+        <div class="container">
+            <h2>Vous aimez, nous les livrons</h2>
+            <div class="row">
+                <div class="col-md">
+
+                    <img src="assets/img/restaurants/big-fernand.jpg" class="img-fluid" alt="Grands plaisirs, petits prix">
+                    <h4>Big Fernand</h4>
+                    <p>Faites vous livrer les plus français des burgers : les fameux hamburgés maison de nos moustachus préférés
+                        !
+                    </p>
+                </div>
+                <div class="col-md">
+                    <img src="assets/img/restaurants/sushi-shop.jpg" class="img-fluid" alt="Grands plaisirs, petits prix">
+                    <h4>Sushi Shop</h4>
+                    <p>Sushi, maki, california, spring … Sushi Shop vous fait déguster ses meilleures créations livrées chez
+                        vous. Vos sushi sont préparés à la commande et avec soin par nos chefs sushimen, pour une expérience
+                        pleine de gourmandise et de fraicheur.</p>
+                </div>
+                <div class="col-md">
+                    <img src="assets/img/restaurants/mamie-burger.jpg" class="img-fluid" alt="Grands plaisirs, petits prix">
+                    <h4>Mamie Burger</h4>
+                    <p>Les meilleurs burgers faits avec l'amour d'une Mamie. Nos burgers sont servis frais et préparés à la
+                        demande tous les jours. Tout simplement !</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <img src="assets/img/restaurants/jour.jpg" class="img-fluid" alt="Grands plaisirs, petits prix">
+                    <h4>Jour</h4>
+                    <p>Jour est un restaurant de salades 100% nature ! Libre à vous de composer votre salade sur mesure ou de
+                        choisir parmi 12 recettes dont 4 de saison ! Tous nos produits sont frais et faits maison ! Et nous
+                        nous engageons à vous proposer des légumes de saison français ou d'ile de France.</p>
+                </div>
+                <div class="col-md">
+                    <img src="assets/img/restaurants/blend-hamburger.jpg" class="img-fluid" alt="Grands plaisirs, petits prix">
+                    <h4>Blend Hamburger</h4>
+                    <p>GOURMET. Chez Blend, tout est cuisiné. Pas un ingrédient autre que la salade n’échappe à une planche
+                        à découper, une poêle, un faitout, un rondeau, un four ou une casserole.</p>
+                </div>
+                <div class="col-md">
+                    <img src="assets/img/restaurants/paris-new-york.jpg" class="img-fluid" alt="Grands plaisirs, petits prix">
+                    <h4>Paris New-York</h4>
+                    <p>Hamburger de qualité ! Une viande bretonne d'exception hachée sur place. Des petits pains à la recette
+                        secrète. Des recettes addictives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="choose">
+        <div class="container">
+            <h2>Vous souhaitez plus d'options ?</h2>
+            <ul class="col-md-12 d-flex flex-row options">
+                <li>
+                    <p> dessert</p>
+                </li>
+                <li>
+                    <p>grec</p>
+                </li>
+                <li>
+                    <p>libanais</p>
+                </li>
+                <li>
+                    <p>italien</p>
+                </li>
+                <li>
+                    <p>halal</p>
+                </li>
+                <li>
+                    <p>thaï</p>
+                </li>
+                <li>
+                    <p>indien</p>
+                </li>
+                <li>
+                    <p>mexicain</p>
+                </li>
+            </ul>
+            <ul class="col-md-12 d-flex flex-row  options">
+                <li>
+                    <p>japonais</p>
+                </li>
+                <li>
+                    <p>chinois</p>
+                </li>
+                <li>
+                    <p>Petit-Déjeuner</p>
+                </li>
+                <li>
+                    <p>Végétarien</p>
+                </li>
+                <li>
+                    <p>sushi</p>
+                </li>
+                <li>
+                    <p>américain</p>
+                </li>
+                <li>
+                    <p>pizza</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="choose more">
+        <div class="container">
+            <h2>Tout chaud !</h2>
+            <div class="row">
+                <div class="col-6 chaud">
+                    <h5>Parrainer un ami</h5>
+                    <p>Offrez €2,50 et recevez €2,50 - invitez vos amis et c'est Deliveroo qui régale.</p>
+                    <button type="button">Partager votre code</button>
+                </div>
+                <div class="col-6 img-wrapper">
+                    <img src="assets/img/parainner.svg" alt="Grands plaisirs, petits prix">
+                    <div class="biseau"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 img-wrapper">
+                    <img src="assets/img/business.jpg" alt="">
+                    <div class="biseau-reverse"></div>
+                </div>
+                <div class="col-6 chaud">
+                    <h5>Deliveroo for Business</h5>
+                    <p>Employés ou clients affamés, notre équipe corporate est là pour vous aider.</p>
+                    <button type="button">Se renseigner</button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-6 chaud">
+                    <h5>Avez-vous l'application ?</h5>
+                    <p>Gardez Deliveroo dans votre poche ! Disponible sur l'App Store et Google Play.</p>
+                    <img src="assets/img/store-badges.svg" class="" alt="Grands plaisirs, petits prix">
+                </div>
+                <div class="col-6 img-wrapper">
+                    <img src="assets/img/app.svg" class="img-fluid icon" alt="">
+                    <div class="biseau"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container choose">
+            <h2>Travaillez avec nous</h2>
+            <div class="card-deck">
+                <div class="card riders">
+                    <img class="card-img-top" src="assets/img/riders.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Pédale avec nous</h5>
+                        <p class="card-text">Tu aimes le vélo ? Tu revendiques ton indépendance ? Deviens partenaire coursier Deliveroo et accède
+                            à des revenus rapides et significatifs avec un emploi du temps flexible ! La communauté de bikers
+                            Deliveroo, c’est aussi une multitude de bons plans.</p>
+                        <button type="button">Rejoindre la flotte</button>
+                    </div>
+                </div>
+                <div class="card restaurants">
+                    <img class="card-img-top" src="assets/img/restaurants.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Livrez avec nous</h5>
+                        <p class="card-text">Nous sommes toujours à l'affût de super restaurants pour nous rejoindre dans notre révolution de
+                            la livraison. Faites équipe avec nous et étendez votre clientèle. De plus, nous nous occupons
+                            des détails pour que vous puissiez vous concentrer sur ce que vous savez faire de mieux : cuisiner.</p>
+                        <button type="button">Se renseigner</button>
+                    </div>
+                </div>
+                <div class="card team">
+                    <img class="card-img-top" src="assets/img/team.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Rejoignez-nous</h5>
+                        <p class="card-text">Déjeuners du vendredi gargantuesques et un environnement ultra dynamique ? Découvrez les postes à
+                            pourvoir dans les bureaux Deliveroo les plus près de chez vous et rejoignez le mouvement !</p>
+                        <button type="button">En savoir plus</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container d-flex flex-row">
+            <div class="row justify-content-around">
+                <div class="col-4">Découvrir Déliveroo
+                    <li>Blog Foodscene</li>
+                    <li>Blog Tech</li>
+                    <li>Blog Design</li>
+                    <li>Nous rejoindre</li>
+                </div>
+                <div class="col-4">
+                    <li>Blog Foodscene</li>
+                    <li>Blog Tech</li>
+                    <li>Blog Design</li>
+                    <li>Nous rejoindre</li>
+                </div>
+                <div class="container d-flex flex-row">
+                    <div class="row" <ul class="col-3 col-md-4">
+                        </ul>
+                        <ul class="col-3 col-md-4"></ul>
+                    </div>
+
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
